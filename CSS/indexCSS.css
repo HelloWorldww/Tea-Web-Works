@@ -1,0 +1,96 @@
+#logo{
+    width: 150px;
+}    
+body{/*設定背景圖以及文字*/
+    text-align: center;
+    background: repeat;
+    background-image: url("../images/background.jpg");
+    font-weight:bold;
+    font-size:120%;
+}
+.tw-tea td,.tw-tea th,th,.definition{/*菜單上的文字調成白色*/
+    color:white;
+}
+img.news{
+    object-fit: fill;
+    width:100%;
+}
+#Thermos-ad{/*廣告區域大一點，使jq mouseenter容易觸發到*/
+    widht:100%;
+}
+#menu{/*菜單背景*/
+    background-color:#EFEFEF;
+    padding:5% 4% 0% 2%;
+    margin-top:5%;
+}
+.tw-tea td:nth-child(2){/*高海拔台灣原茶XL價格顏色*/
+    background-color:rgb(159, 153, 65);
+}
+.tw-tea td:nth-child(3){/*高海拔台灣原茶L價格顏色*/
+    background-color:#cbb339;
+}
+.tw-tea td,#topping{
+    background-color:#667F45;
+}
+table th,.definition{
+    background-color:rgb(44,78,41);
+}
+.leaves{/*將葉子icon改成綠色*/
+    color:rgb(47,82,45)
+}
+.table-striped th:first-child{/*每個table上改成圓角*/
+    border-top-left-radius: 20px;
+}
+.table-striped th:last-child{/*每個table上改成圓角*/
+    border-top-right-radius: 20px;
+}
+td{
+    background-color:#EFEFEF;
+}
+#tip{/*小提示:灰色字*/
+    color:gray;
+}
+.char-icon{/*M XL標誌製作*/
+    color:white;
+    background-color:rgb(47,82,45);
+}
+.inline{/*將一些換行的文本改成一行，為了table外觀*/
+    white-space:nowrap;
+}
+#location{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+#wood-header{/*店面資訊標題*/
+    font-weight:bold;
+    font-size:250%;
+    color:#813b08; 
+    text-shadow:3px 2px black;
+}
+.store{/*店面資訊文字*/
+    font-weight:bold;
+    font-size:150%;
+    color:#522a0e; 
+    text-shadow:1px 1px black;
+}
+#city,#Dist{/*選項欄色彩*/   
+    background:rgba(0,0,0,0.6);
+    width:auto;
+    border:2px #813b08 solid;
+    color:#EFEFEF;
+    font-weight:bold;
+    font-size:120%;
+}
+#store-information{/*店面資訊木板背景*/
+    background-image:url(../images/wood_background.jpg);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:60%;
+    height:auto;
+    border:2px #813b08 solid;
+    color:#3f2716;
+    font-size:120%;
+    padding-bottom: 10%;
+}
